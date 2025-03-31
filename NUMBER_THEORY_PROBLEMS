@@ -1,0 +1,35 @@
+NUMBER THEORY
+
+Basics
+
+Q1. Find all integers n, such that (n+1)|(n^2+1). 
+Q2. Prove that there are infinitely many positive integers n, such that both 5 and 13 divide 4n^2+1.
+Q3. Prove that for every positive integer n, there exists a positive integer x, such that n divides each term of the sequence x+1,x^x+1,x^{x^x}+1,\ldots.
+Q4.  Find all odd positive integers such that 3|(n2^n+1).
+Q5. Prove that for every integer k the numbers 2k+l and 9k+4 are relatively prime, and for numbers 2k-l and' 9k+4 find their greatest common divisor as a function of k.
+Q6. Prove that every integer> 6 can be represented as a sum of two integers > 1 which are relatively prime.
+Q7. Prove that infinite sequence {2n-3} (n=2,3,4,…) contains infinitely many numbers divisible by either 5 or 13, but there doesn’t exist any no in the sequence divisible by 5∙13.
+Q8. A natural number n is chosen strictly between two consecutive perfect squares. The smaller of these two squares is obtained by subtracting k from n and the larger one is obtained by adding l to n. Prove that n − kl is a perfect square.
+Q9. Prove that every prime of the form 4k + 1 is a hypotenuse of a right triangle with integer sides.
+Q10. Find all primes which can be represented both as sums and as differences of two primes.
+
+Intermediate
+
+Q1. Let   be a five digit number (whose first digit is non-zero) and let   be the four digit number formed from n by removing its middle digit. Determine all   such that   is an integer.
+Q2. Find the least positive integer such that when its leftmost digit is deleted, the resulting integer is 1/29th of the original integer.
+Q3. Let a be an n digit number be the number formed by writing two copies of a, one after the other. If a2|b then find a.
+Q4. Find the number of non-negative solutions to (n_1)^4+(n_2)^4+(n_3)^4+...+(n_16)^4=1599.
+
+Hard
+
+Q1. Let us define a sequence {an} of positive integers where n is a natural no.                                                     
+Let a1=12345 and an+1 = an+maxdigit(an) ∙ maxdigit(an), where maxdigit(N) and mindigit(N) denote the maximum and minimum digits of N, respectively .
+Does the sequence converge? Does the answer depend on the value of a1?
+
+Very Hard
+
+Q1. Start with a positive integer, then choose a negative integer. These numbers are then used to generate a sequence where each term is a sum of the previous two terms.
+For example, if we started with 6 and −5, we would get the sequence 6, −5,1,−4, −3,−7,−10, −17,−27,... which starts with 4 elements that alternate sign before the terms are all negative. 
+If we started with 3 and −2, we would get the sequence 3, −2, 1,−1, 0, −1,−1,−2,−3,... which also starts with 4 elements that alternate sign before the terms are all non-positive (we don’t count 0 in the alternating part). 
+(a) Can you find a sequence of this type that starts with 5 elements that alternate sign? With 10 elements that alternate sign? Can you find a sequence with any number of elements that alternate sign? 
+(b) Given a particular starting integer, what negative number should you choose to make the alternating part of the sequence as long as possible? For example, if your sequence started with 8, what negative number would give the longest alternating part? What if you started with 10? With n?
